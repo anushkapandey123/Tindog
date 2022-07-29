@@ -1,0 +1,147 @@
+body {
+    font-family: "Montserrat";
+}
+
+/*......................id..........................*/
+#title {
+    background-color: #FF4C68;
+    color: #fff;
+}
+
+#features {
+    padding: 7% 15% 7% 15%;
+    background-color: #fff;
+    
+}
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #FF4C68;
+    color: #fff;
+}
+
+#press {
+    background-color: #FF4C68;
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+
+#pricing {
+    text-align: center;
+    padding: 100px;
+}
+
+#cta {
+    background-color: #FF4C68;
+    text-align: center;
+    font-family: "Montserrat-Black";
+    color: #fff;
+    padding: 7% 15% 7% 15%;
+}
+
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+/*.........................tags...........................*/
+h1,h2,h3,h5,h5,h6 {
+    font-family: 'Montserrat-Bold';
+}
+h1 {
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+h2 {
+    
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+h3 {
+    
+    font-weight: bolder;
+}
+p {
+    color: grey;
+}
+
+/*...............................class............................*/
+.img-padding {
+    margin-top: 2em;
+    
+}
+.title-img {
+    width: 60%;
+    transform: rotate(30deg);
+    
+}
+
+.container-fluid {
+    padding: 3% 15% 3% 15%;
+}
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+/* Navigation Bar */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px 0 18px;
+}
+.nav-link {
+    font-size: 1.2rem;
+}
+
+/* Buttons */
+.download-btn {
+    margin: 2.5rem 1rem 0 0;
+}
+
+.testimonial-img {
+    width: 15%;
+    border-radius: 100%;
+    margin-top: 30px;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+.social-icon {
+    padding: 20px 10px;
+}
+
+
+
